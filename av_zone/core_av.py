@@ -18,19 +18,20 @@ def hash_block(file, begin=0, size=block_size):
 
 
 def get_signature_db():
-    sig_db = open('signature_db.txt')
-    db = {}
-    for line in sig_db:
+    f = open('signature_db.txt')
+    db ={}  
+    for line in f:
         key, name = line.split()
         db[key] = name
+    f.close()
     return db
 
 def main():
-    hash_block(__file__,10)
+    print get_signature_db()
 
 if __name__ == '__main__':
     main()
-
+##
 
 
 
