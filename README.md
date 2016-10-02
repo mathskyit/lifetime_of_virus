@@ -5,5 +5,6 @@ An exercise of virus defender subject
 
 ### Sep-24-2016
 + an simple av. IT is signature-based. it use a hash function to hash a block of virus.
+
 ### Oct-01-2016
 + heuristic_based. Using method of evaluation of commands Which is malicious.
