@@ -1,0 +1,7 @@
+search 1
+infect 5
+os.remove 4
+os.walk 2
+filestoinfect 5
+virus 1
+payload 4
