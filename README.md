@@ -8,3 +8,8 @@ An exercise of virus defender subject
 
 ### Oct-01-2016
 + heuristic_based. Using method of evaluation of commands Which is malicious.
+
+### Oct-03-2016
++ simulate a TCP server
++ C&C server blacklist
+
