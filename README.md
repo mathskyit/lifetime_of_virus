@@ -1,4 +1,4 @@
-# lifetime_of_virus
+# lifetime_of_AV&V
 An exercise of virus defender subject
 ### Sep-23-2016
 + an simple virus was born. It have 3 part: search || infect || behave
