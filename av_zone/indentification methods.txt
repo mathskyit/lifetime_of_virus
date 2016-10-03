@@ -1,0 +1,10 @@
+- signature-based
+	+ hash full-block
+	+ hash block_size
+- heuristic
+	+ rules or algorithms to dectects malicious commands
+		. db: % malicious code
+- behavior
+	+ change, modify a file
+- host/cc
+	+ netstat
