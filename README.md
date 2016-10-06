@@ -13,3 +13,6 @@ An exercise of virus defender subject
 + simulate a TCP server
 + C&C server blacklist
 
+### Oct-05-2016
++ start behavior-based
++ monitor behave add to startup
