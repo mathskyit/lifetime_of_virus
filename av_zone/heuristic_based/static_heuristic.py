@@ -36,7 +36,7 @@ def split(string):
         while i < len(string) and not string[i].isalpha():
             i += 1
         j = i + 1
-        while j < len(string) and string[j].isalpha():
+        while j < len(string) and (string[j].isalpha() or string[j]=='.'):
             j += 1
         words.append(string[i:j])
         i = j + 1

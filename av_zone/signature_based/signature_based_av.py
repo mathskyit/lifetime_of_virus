@@ -19,13 +19,13 @@ def scan(path):
             scan(file_path)
         elif file[-3:] == '.py':
             if type_scan == 2:
-                print " fdfsdfds"
                 slow_scan(file_path)
             else:
                 quick_scan(file_path)
 
+# scan only virus file
 def quick_scan(file_path):
-    print file_path
+    print '\n'
     block_size = core_av.block_size
     sig = core_av.hash_block(file_path)
     if sig in db:
@@ -34,8 +34,9 @@ def quick_scan(file_path):
         print "\t:( VIRUS FOUND: %s :( " % (db[sig])
         print "\t###########################"
 
-
+# scan both of virus and infected file
 def slow_scan(file_path):
+    print '\n'
     print file_path
     block_size = core_av.block_size
     f = open(file_path)

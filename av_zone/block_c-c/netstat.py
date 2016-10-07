@@ -11,7 +11,8 @@ def main():
     while 1:
         output = netstat()
         if output.find(black_list) != -1:
-            print "Warning!!! Virus"
+            print "Warning!!! Having virus connect to %s"\
+                  % (black_list)
         time.sleep(1)
 
 if __name__ == '__main__':
